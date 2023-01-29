@@ -5,7 +5,7 @@ fn main() {
 
     match matches.subcommand() {
         Some(("create", data)) => {
-            println!("create: {:?}", data)
+            println!("create: {data:?}")
         }
         _ => println!("Unhandled command given"),
     }
